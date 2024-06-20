@@ -21,7 +21,7 @@ function changeCards(event) {
 
     cardsToShow.forEach(function (cardData) {
         const cardHTML = `
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 15rem;">
                     <img src="${cardData.image}" class="card-img-top" alt="${cardData.title}">
                     <div class="card-body">
